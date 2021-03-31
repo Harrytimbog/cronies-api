@@ -1,6 +1,6 @@
 class Api::V1::CroniesController < Api::V1::BaseController
     acts_as_token_authentication_handler_for User, except: [ :index, :show ]
-    before_action :set_crony, only: [ :show, :update ] 
+    before_action :set_crony, only: [ :show, :update, :destroy ] 
 
     def index
       @cronies = policy_scope(Crony)
@@ -26,6 +26,11 @@ class Api::V1::CroniesController < Api::V1::BaseController
         else
             render_error
         end
+    end
+
+    def destroy
+        @crony.destroy
+        head :no_content
     end
 
     private
