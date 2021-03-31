@@ -9,6 +9,17 @@ class Api::V1::CroniesController < Api::V1::BaseController
     def show
     end
 
+    def create
+        @crony = Crony.new(crony_params)
+        @crony.user = current_user
+        authorize @crony
+        if @crony.save
+            render :show, status: :create
+        else
+            render_error
+        end
+    end
+
     def update
         if @crony.update(crony_params)
             render :show
