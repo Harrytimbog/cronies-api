@@ -41,7 +41,7 @@ class Api::V1::CroniesController < Api::V1::BaseController
     end
 
     def crony_params
-        params.require(:crony).permit(:name, :address, :nickname, :category, :decription)
+        params.require(:crony).permit(:name, :address, :nickname, :category, :description)
     end
 
     def render_error
