@@ -1,2 +1,60 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<div id=root>
+    <div>
+        <%= image_tag "wolf.png", alt: "Le Wagon", width: 200 %>
+    </div>
+</div>
+
+<script>
+    const app = document.getElementById('root');
+
+    const container = document.createElement('div');
+    container.setAttribute('class', 'container');
+
+    app.appendChild(container)
+
+    var request = new XMLHttpRequest()
+
+    request.open('GET', 'api/v1/cronies', true)
+    request.onload = function () {
+        // Begin accessing JSON data from here
+        var data = JSON.parse(this.response)
+        console.log(data);
+
+        if (request.status >= 200 && request.status < 400) {
+            data.forEach((crony) => {
+                // Create a div with a card class
+                const card = document.createElement('div')
+                card.setAttribute('class', 'card')
+
+                // Create an h1 and set the text content to the crony's name
+                const h1 = document.createElement('h1')
+                h1.textContent = crony.name
+
+                // Create a p and set the text content to the crony's description
+                const p = document.createElement('p')
+                crony.description = crony.description.substring(0, 300)
+                p.textContent = `${crony.description}...`
+                
+
+                // Append the cards to the container element
+                container.appendChild(card)
+
+                // Each card will contain an h1 and a p
+                card.appendChild(h1)
+                card.appendChild(p)
+            });
+        } else {
+            const errorMessage = document.createElement('marquee')
+            errorMessage.textContent = "Gah, its not working!"
+            app.appendChild(errorMessage)
+        }
+    }
+
+    request.send()
+
+    fetch('https://cronies-api.herokuapp.com/api/v1/cronies')
+    .then(response => response.json())
+    .then(data => console.log(data));
+
+</script>
