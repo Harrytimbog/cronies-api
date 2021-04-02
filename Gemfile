@@ -31,6 +31,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'pundit'
 gem 'simple_token_authentication'
+gem 'w3-rails', '~> 0.1.0'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'

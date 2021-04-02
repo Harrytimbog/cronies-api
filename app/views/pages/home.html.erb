@@ -21,7 +21,6 @@
     request.onload = function () {
         // Begin accessing JSON data from here
         var data = JSON.parse(this.response)
-        console.log(data);
 
         if (request.status >= 200 && request.status < 400) {
             data.forEach((crony) => {
@@ -55,8 +54,9 @@
 
     request.send()
 
-    fetch('https://cronies-api.herokuapp.com/api/v1/cronies')
-    .then(response => response.json())
-    .then(data => console.log(data));
+    // Using fetch api as an alternative to XMLHttpRequest
+        //    fetch('/api/v1/cronies')
+        //    .then(response => response.json())
+        //    .then(data => console.log(data));
 
 </script>
