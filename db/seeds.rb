@@ -15,7 +15,7 @@ Crony.create!(
     nickname: "Queen Bee",
     address: "Iyana church, Ibadan, Oyo state",
     category: "Romantic Partner",
-    description: "Sweetheart mi... Very nice lady but can be naughty at times. Whatsapp admin shew!!!",
+    description: "Queen B - sweetheart mi... Very nice lady but can be naughty at times. Whatsapp admin shew!!!",
     user: user
 )
 
@@ -24,7 +24,7 @@ Crony.create!(
     nickname: "Flappo / Flappizy",
     address: "Alakia, Ibadan, Oyo state",
     category: "Padi mi",
-    description: "Dude is more like a bro, Booda adugbo. Real G, Agidi po ju talent lo, very cool headed and he is such a good person. I have known him for a while and all I respect the bros even though he no gree",
+    description: "Flappo - Dude is more like a bro, Booda adugbo. Real G, Agidi po ju talent lo, very cool headed and he is such a good person. I have known him for a while and all, I respect the bros even though he no gree",
     user: user
 )
 
@@ -33,7 +33,7 @@ Crony.create!(
     nickname: "Bounce",
     address: "Onigbongo, Maryland, Lagos state",
     category: "Padi mi",
-    description: "Dude is more like a bro, Booda adugbo. Real G, such a good person. Innocent bros wey carry Yoruba demon name (mis-identity of d highest order). You are a good friend bro",
+    description: "Bounce - Dude is more like a bro. Real G, such a good person. Innocent bros wey carry Yoruba demon name (wrong identity of d highest order). You are a good friend bro",
     user: user
 )
 
@@ -42,7 +42,7 @@ Crony.create!(
     nickname: "Isabolla",
     address: "26, ladeira da Gloria, Rio de Janeiro, Brazil",
     category: "Padi mi / foreign",
-    description: "Very passionate about almost everything, smart, has a good heart, flamengo fc fan, and can be crazy on the fun side... Isa my Gee",
+    description: "Isabolla - Very passionate about almost everything, smart, has a good heart, flamengo fc fan, and can be crazy on the fun side... Isa my Gee",
     user: user
 )
 
@@ -51,7 +51,7 @@ Crony.create!(
     nickname: "Maami",
     address: "Ologuneru, Eleyele, Ibadan, Oyo state",
     category: "Padi mi",
-    description: "Tallest female friend wey I get, very nice person and fun to be with...I really respect you even though na my aburo n maami u still b.",
+    description: "Maami - Tallest female friend wey I get, very nice person and fun to be with...I really respect you even though na my aburo n maami u still b at the same time.",
     user: user
 )
 
@@ -60,7 +60,7 @@ Crony.create!(
     nickname: "Turlsam",
     address: "Ojota, Lagos state",
     category: "Padi mi",
-    description: "REal G...Vibes after vibes. Too many bangers like say we dey christmas always. Respect u bro",
+    description: "Turlsam - Real G...Vibes after vibes. Too many bangers like say we dey christmas always. Respect u bro. We survived Otunba's era together...lol",
     user: user
 )
 
@@ -69,7 +69,7 @@ Crony.create!(
     nickname: "Boston",
     address: "Ayobo, Lagos state",
     category: "Padi mi",
-    description: "Pastor poo poo bi ibon. Smart ass, consistent at chasing fugly fishes...na joke o. I suppose don shoot u many times but u are still my bro. I Respect u sir",
+    description: "Mr poo poo bi ibon. smart ass, consistent at chasing fugly fishes...na joke o. I suppose don shoot u many times but u are still my bro. I don't respect u sir",
     user: user
 )
 
@@ -78,7 +78,7 @@ Crony.create!(
     nickname: "Coupon King",
     address: "26, ladeira da Gloria, Rio de Janeiro, Brazil",
     category: "Foreign",
-    description: "Amazing dude. Really knows how to get things at cut prices, any legit thing o, parties, food, gadgets etc. Always willing to help. Manoel I need some condoms mehn!!!",
+    description: "Coupon King - Amazing dude. Really knows how to get things at cut prices, any legit thing o, parties, food, gadgets, tickets etc. Always willing to help. Manoel I need some condoms mehn!!!",
     user: user
 )
 
@@ -87,7 +87,7 @@ Crony.create!(
     nickname: "Advance",
     address: "sanyo, Ibadan, Oyo state",
     category: "Old school mate",
-    description: "Loved Psquare that year, omo pastor, annoying during the teenage years, good lad, padi mi, Secondary school senior prefect. I hope you don dey listen to psquare in secret, some of d lyrics u dey sing along that year still dey trapped in my head",
+    description: "Advance - Loved Psquare that year, omo pastor, annoying during the teenage years(nigga too dey write list of noise makers e.t.c), good lad, padi mi, amazing dude, secondary school senior prefect. I hope you don dey listen to psquare again sha, some of d lyrics u dey sing along that year still dey trapped in my head",
     user: user
 )
 
@@ -123,7 +123,7 @@ Crony.create!(
     nickname: "Krista",
     address: "Rua do Catete, Rio de Janeiro, Brazil",
     category: "Foreign",
-    description: "Krista, I hope you still rember how to speak pidgin. Pronounce chop make I hear. Franko's mum, I respect you so much",
+    description: "Krista, I hope you still rember how to speak Nigerian pidgin. Pronounce chop make I hear. Franko's mum, I respect you so much",
     user: user
 )
 
@@ -132,10 +132,108 @@ Crony.create!(
     nickname: "CEO",
     address: "Olodo, Ibadan, Oyo state",
     category: "padi mi",
-    description: "Business man. egbon e lo marry, no be only money be the target nah. Such an amazing guy wey I don sabi tey tey. Goan learn how to dance and may I meet you get married this year, else forceful match making go take place",
+    description: "Business man. egbon e lo marry, no be only money be the target nah. Such an amazing guy wey I don sabi tey tey. Goan learn how to dance as we hope you get married this year, else forceful match making go sup",
     user: user
 )
 
+Crony.create!(
+    name: "Adabale Ademola",
+    nickname: "Demulo",
+    address: "Olodo, Ibadan, Oyo state",
+    category: "padi mi",
+    description: "Demulo - Better person, our part-time chef that year, book smart, our guitarist / keyboardist, real G. I hope our friendship lasts for ever, guy u dey very peaceful. One of the few people I can share a lot of things with.",
+    user: user
+)
+
+Crony.create!(
+    name: "Tobi Salami",
+    nickname: "Tiscona",
+    address: "Ringroad, Ibadan, Oyo state",
+    category: "padi mi",
+    description: "Tiscona - Our kungfu master that year, crazy since way bk. OG, funny and very reasonable. Had so much fun dat year in secondary school cos of people like you",
+    user: user
+)
+
+Crony.create!(
+    name: "Subomi Onawoga",
+    nickname: "Subbyskilz",
+    address: "Ringroad, Ibadan, Oyo state",
+    category: "padi mi",
+    description: "Subbyskilz - freekick curve king, OG. For sec sch, subbyskilz no dey near woman but now 'em 'em... mo ti choke. ",
+    user: user
+)
+
+Crony.create!(
+    name: "Ebuka Okafor",
+    nickname: "Ebuka",
+    address: "Dublin, Ireland",
+    category: "padi mi",
+    description: "Bro since our days as undergraduates, real G.",
+    user: user
+)
+
+Crony.create!(
+    name: "Nasmat Yusuf",
+    nickname: "Lil-nas",
+    address: "ikeja, Lagos state",
+    category: "padi mi",
+    description: "Lil-nas - Smart smallie that year for sec sch, Walking WAEC series. We sang along to songs together and even held talks bout some chick(omo yen). Time and space just scattered everyone sha. Wish u a happy married life my friend",
+    user: user
+)
+
+Crony.create!(
+    name: "Oshin Tosin",
+    nickname: "Pilot / P.T.O",
+    address: "Molete, Ibadan, Oyo state state",
+    category: "padi mi",
+    description: "Pilot Tosin Oshin (P.T.O) - Smart chick, Walking WAEC series that year. Respect you",
+    user: user
+)
+
+Crony.create!(
+    name: "Ademola Kafayat",
+    nickname: "kaffy",
+    address: "Felele, Ibadan, Oyo state state",
+    category: "padi mi",
+    description: "kaffy - Smart chick, omo water water, school sister mi. You've had a very good heart since way bk. Business go dey boom and the best is yet to come. Wish u well",
+    user: user
+)
+
+Crony.create!(
+    name: "Mary Ogar",
+    nickname: "Mary",
+    address: "Karu, Abuja, FCT",
+    category: "padi mi",
+    description: "Smart chick. Time and space no do well for keeping us apart sha. We connected really well from the moment we met and I will keep rating you so much. Keep being you",
+    user: user
+)
+
+Crony.create!(
+    name: "Richard Ujar",
+    nickname: "Comptroller General",
+    address: "Owerri, Imo state",
+    category: "padi mi",
+    description: "Comptroller General - Service year was amazing, all thanks to you and the geng. Amazing guy, dude speaks Yoruba, Igbo and Hausa fluently. I love them slim, but we kept seeing fat ladies...lol. Wish you more success wey hustler like you really deserve",
+    user: user
+)
+
+Crony.create!(
+    name: "Muelji Damos",
+    nickname: "Muelji",
+    address: "Bauchi, Bauchi state",
+    category: "padi mi",
+    description: "Peaceful guy, I never see you cause trouble b4. We both got into trouble sha by missing school bus in 2006 cos we went to game house. We had to chase from Felele to Jericho, Ibadan, hid in a bush sef but na only you escaped flogging lass lass. The Cane wey I chop tear skin sef. Keep being a good guy bro",
+    user: user
+)
+
+Crony.create!(
+    name: "Olowe Kayode",
+    nickname: "Oluwe",
+    address: "Iwo road, Ibadan, Oyo state",
+    category: "padi mi",
+    description: "One of Oldest friends I know unto say we don sabi tey tey, Kayode dey speak fast like he was rapping back then. Amazing guy, business oriented and very nice. We still dey jam once in a while tho, respect to u",
+    user: user
+)
 
 puts "Finished!!! Cronies created successfully"
 
