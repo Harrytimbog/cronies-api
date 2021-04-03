@@ -15,7 +15,7 @@ Crony.create!(
     nickname: "Queen Bee",
     address: "Iyana church, Ibadan, Oyo state",
     category: "Romantic Partner",
-    description: "Queen B - sweetheart mi... Very nice lady but can be naughty at times. Whatsapp admin shew!!!",
+    description: "Queen B - sweetheart mi... Very nice lady but can be naughty at times. You are smooth and i've got so much love for you hello!!!",
     user: user
 )
 
@@ -123,7 +123,7 @@ Crony.create!(
     nickname: "Krista",
     address: "Rua do Catete, Rio de Janeiro, Brazil",
     category: "Foreign",
-    description: "Krista, I hope you still rember how to speak Nigerian pidgin. Pronounce chop make I hear. Franko's mum, I respect you so much",
+    description: "Krista, I hope you still remember how to speak Nigerian pidgin. Pronounce chop make I hear. Franko's mum, I respect you so much",
     user: user
 )
 
