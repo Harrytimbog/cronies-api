@@ -1,4 +1,4 @@
-## cronies-api
+# cronies-api
 A basic blog built with Postgres, Ruby on Rails.
 
 ## API Documentation     
