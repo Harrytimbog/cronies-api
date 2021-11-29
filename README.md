@@ -1,5 +1,5 @@
 # cronies-api
-A basic blog built with Postgres, Ruby on Rails.
+An api built with RUby on rails. Holds informations about my cronies with a web page integrated to display some of these details on the front end 
 
 ## API Documentation     
 
@@ -45,6 +45,8 @@ Start Server
 ``` console
 rails s
 ```
+Open [http://localhost:3000/api/v1/cronies](http://localhost:3000/api/v1/cronies) with your browser to see the result.
+
 
 ## Feedback  
 
