@@ -72,6 +72,14 @@ Crony.create!(
     description: "Mr poo poo bi ibon. smart ass, consistent at chasing fugly fishes...na joke o. I suppose don shoot u many times but u are still my bro. I don't respect u sir",
     user: user
 )
+Crony.create!(
+    name: "Ajayi David",
+    nickname: "IDK",
+    address: "Sanyo, Ibadan, Oyo state",
+    category: "Padi mi",
+    description: "Nigga is cool as fk, good guy and I feel he has secret vibes. Or permit me to say hidden vibes",
+    user: user
+)
 
 Crony.create!(
     name: "Manoel Tabet",
